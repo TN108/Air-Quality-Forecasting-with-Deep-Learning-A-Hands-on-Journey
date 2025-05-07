@@ -1,4 +1,4 @@
-Beijing PM2.5 Time Series Forecasting
+# Beijing PM2.5 Time Series Forecasting
 A deep learning project focused on predicting PM2.5 air pollution levels using LSTM and GRU networks — implemented both from scratch and using PyTorch's built-in modules.
 
 📌 Overview
@@ -13,7 +13,7 @@ PyTorch nn.LSTM
 
 PyTorch nn.GRU
 
-📂 Dataset Description
+# 📂 Dataset Description
 The dataset includes the following features:
 
 pm2.5: target variable (µg/m³)
@@ -26,9 +26,9 @@ Iws, Is, Ir: cumulative wind speed, snow hours, and rain hours
 
 year, month, day, hour: used to build the datetime index
 
-📁 Dataset source: UCI Machine Learning Repository
 
-⚙️ Workflow
+
+# ⚙️ Workflow
 ✅ Task 1: Data Preprocessing
 Handled missing values
 
@@ -76,12 +76,12 @@ Pseudo-accuracy (±20% tolerance)
 
 Plotted predictions vs actual values
 
-📊 Key Insights
+# 📊 Key Insights
 GRU vs LSTM: GRU performed similarly (or better) on this dataset. Simpler architecture = faster convergence and regularization.
 
 Custom vs Built-in: PyTorch built-ins are more efficient and numerically stable. Custom models are great for learning but slower.
 
-🔍 Analytical Questions Answered
+# 🔍 Analytical Questions Answered
 Why LSTM is resistant to vanishing gradients
 
 When GRU may outperform LSTM
@@ -92,7 +92,7 @@ When even LSTMs can fail
 
 Pros and cons of simplification in recurrent networks
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 Python, Jupyter Notebook
 
 PyTorch
